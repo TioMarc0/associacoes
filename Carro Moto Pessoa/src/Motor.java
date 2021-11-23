@@ -30,10 +30,10 @@ public class Motor {
 			if (cilindros > 0)
 				this.cilindros = cilindros;
 		}
-		public String getConbustivel() {
+		public String getCombustivel() {
 			return combustivel;
 		}
-		public void setConbustivel(String combustivel) {
+		public void setCombustivel(String combustivel) {
 			if (combustivel.length() > 0)
 				this.combustivel = combustivel;
 			
